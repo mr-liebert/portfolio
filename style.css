@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("./circular-std/CircularStd-Book.otf") format("opentype");
+}
+* {
+  font-family: CircularStd-Book;
+}
+
 .navigation-container {
   display: flex;
   justify-content: space-between;
