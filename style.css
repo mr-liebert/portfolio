@@ -1,17 +1,37 @@
 @font-face {
-  font-family: "CircularStd-Book";
-  src: url("./circular-std/CircularStd-Book.otf") format("opentype");
+  font-family: CircularStd-Book;
+  src: url(./circular-std/CircularStd-Book.otf);
 }
-* {
+
+body {
   font-family: CircularStd-Book;
 }
 
 .navigation-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 40px 80px 80px;
+}
+
+.navigation-container .logo a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 25px;
 }
 
 .navigation {
   display: flex;
   gap: 10px;
+}
+
+.landing-introduction {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 500px;
+  align-items: center;
+}
+
+.landing-header {
+  text-align: center;
 }
